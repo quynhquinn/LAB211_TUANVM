@@ -14,7 +14,7 @@ public class LinearSearch {
         DisplayArr(array,"The array: ");
         //5. Find the index of search number in array
         int index= FindIndexSearchNum(array, searchNum);
-        //5. Display the index of search number in array
+        //6. Display the index of search number in array
         DisplayIndex(index, "Found "+searchNum+" at index: ");
     }
     public static int InputPositiveNumber( String s){
